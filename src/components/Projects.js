@@ -7,16 +7,28 @@ import picGameNotes from "../images/app-gamenotes.jpg";
 import picHabiTracker from "../images/app-habitracker.jpg";
 import picSoundersQuiz from "../images/app-sounders-quiz-gif-thumbnail.gif";
 import picReadMeGenerator from "../images/app-good-readme-generator.gif";
-import picComingSoon from "../images/app-comingsoon.jpg";
+import picMyTeamStats from "../images/app-myteam_addSeason.jpg"
+// import picComingSoon from "../images/app-comingsoon.jpg";
 
 // Icons for technologies
-import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiMysql, SiSequelize, SiGraphql, SiHandlebarsdotjs, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiJest, SiInsomnia, SiHeroku, SiApollographql } from "react-icons/si"
+import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiMysql, SiSequelize, SiGraphql, SiHandlebarsdotjs, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiJest, SiInsomnia, SiHeroku, SiApollographql, SiMaterialui } from "react-icons/si"
 
 
 
 const workSamples = [
   {
     id: 1,
+    title: "myTeam Stats",
+    imagePath: picMyTeamStats,
+    description: "A soccer roster and stats tracker for youth leagues, adult recreational teams, and school sports! Technologies used: HTML, CSS, JS, Material UI, MongoDB, Express, React, Node, Apollo GraphQL, Heroku",
+    technologies: [ <SiHtml5 />, <SiCss3 />, <SiJavascript />, <SiMaterialui />, <SiMongodb />, <SiExpress />, <SiReact />, <SiNodedotjs />, <SiGraphql />, <SiApollographql />, <SiHeroku /> ],
+    page: "LIVE",
+    pageURL: "https://myteam-stats.herokuapp.com/",
+    repo: "REPO",
+    repoURL: "https://github.com/thenickedwards/My-Team-Stats-Tracker",
+  },
+  {
+    id: 2,
     title: "HoliDAZE",
     imagePath: picHolidaze,
     description:
@@ -28,7 +40,7 @@ const workSamples = [
     repoURL: "https://github.com/jsamborski310/Holidaze",
   },
   {
-    id: 2,
+    id: 3,
     title: "Game Notes",
     imagePath: picGameNotes,
     description:
@@ -40,7 +52,7 @@ const workSamples = [
     repoURL: "https://github.com/thenickedwards/game-notes",
   },
   {
-    id: 3,
+    id: 4,
     title: "Happy Habit Tracker",
     imagePath: picHabiTracker,
     description:
@@ -52,7 +64,7 @@ const workSamples = [
     repoURL: "https://github.com/chandrapanda/happy-habit-tracker",
   },
   {
-    id: 4,
+    id: 5,
     title: "Sounders Quiz",
     imagePath: picSoundersQuiz,
     description:
@@ -64,7 +76,7 @@ const workSamples = [
     repoURL: "https://github.com/thenickedwards/sounders-quiz",
   },
   {
-    id: 5,
+    id: 6,
     title: "good-readme-generator",
     imagePath: picReadMeGenerator,
     description:
@@ -75,17 +87,6 @@ const workSamples = [
       "https://drive.google.com/file/d/1jIMywy9jxhm8zK6Pv2GPztcIyaX4DLUx/view",
     repo: "REPO",
     repoURL: "https://github.com/thenickedwards/good-readme-generator",
-  },
-  {
-    id: 6,
-    title: "More coming soon!",
-    imagePath: picComingSoon,
-    description: "I'm just getting started :D",
-    technologies: "",
-    page: "",
-    pageURL: "",
-    repo: "",
-    repoURL: "",
   },
 ];
 
