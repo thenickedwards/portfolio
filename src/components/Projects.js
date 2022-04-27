@@ -20,7 +20,7 @@ const workSamples = [
     id: 1,
     title: "myTeam Stats",
     imagePath: picMyTeamStats,
-    description: "A soccer roster and stats tracker for youth leagues, adult recreational teams, and school sports! Technologies used: HTML, CSS, JS, Material UI, MongoDB, Express, React, Node, Apollo GraphQL, Heroku",
+    description: "A soccer roster and stats tracker for youth leagues, adult recreational teams, and school sports! The myTeam Stats app is the best way to manage anything from players on a team to multiple leagues running multiple seasons. Technologies used: HTML, CSS, JS, Material UI, MongoDB, Express, React, Node, Apollo GraphQL, Heroku",
     technologies: [ <SiHtml5 />, <SiCss3 />, <SiJavascript />, <SiMaterialui />, <SiMongodb />, <SiExpress />, <SiReact />, <SiNodedotjs />, <SiGraphql />, <SiApollographql />, <SiHeroku /> ],
     page: "LIVE",
     pageURL: "https://myteam-stats.herokuapp.com/",
