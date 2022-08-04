@@ -16,7 +16,7 @@ export default function Contact() {
         </Form.Group>
         <Form.Group className="mb-3" controlId="Form.ControlInput-Message">
           <Form.Label>Message</Form.Label>
-          <Form.Control required as="textarea" name="message" rows={3} placeholder="You can compose your message here or use the email link in the footer. Looking forward to hearing from you!"/>
+          <Form.Control required as="textarea" name="message" rows={3} placeholder="You can compose your message here or use the email icon in the footer to reach me at nickedwards.dev@gmail. Looking forward to hearing from you!"/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check required type="checkbox" label="I'm not a robot" />
