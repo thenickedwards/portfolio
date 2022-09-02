@@ -26,7 +26,7 @@ export default function Bio() {
           
           <ColoredLine color="gray" />
 
-          <h4 className='nav-main nav-menu'>toolkit</h4>
+          <h4 className='nav-main nav-menu' style={{fontWeight: '700'}}>toolkit</h4>
           <div className='tools-container col-10'>
             
             <h1><SiHtml5 alt="HTML"/></h1>
