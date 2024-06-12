@@ -11,8 +11,7 @@ import picMyTeamStats from "../images/app-myteam_addSeason.jpg"
 // import picComingSoon from "../images/app-comingsoon.jpg";
 
 // Icons for technologies
-import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiMysql, SiSequelize, SiGraphql, SiHandlebarsdotjs, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiJest, SiInsomnia, SiHeroku, SiApollographql, SiMaterialui } from "react-icons/si"
-
+import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiMysql, SiSequelize, SiGraphql, SiHandlebarsdotjs, SiMongodb, SiExpress, SiReact, SiNodedotjs, SiJest, SiInsomnia, SiHeroku, SiApollographql, SiMui } from "react-icons/si"
 
 
 const workSamples = [
@@ -21,7 +20,7 @@ const workSamples = [
     title: "myTeam Stats",
     imagePath: picMyTeamStats,
     description: "A soccer roster and stats tracker for youth leagues, adult recreational teams, and school sports! The myTeam Stats app is the best way to manage anything from players on a team to multiple leagues running multiple seasons. Technologies used: HTML, CSS, JS, Material UI, MongoDB, Express, React, Node, Apollo GraphQL, Heroku",
-    technologies: [ <SiHtml5 />, <SiCss3 />, <SiJavascript />, <SiMaterialui />, <SiMongodb />, <SiExpress />, <SiReact />, <SiNodedotjs />, <SiGraphql />, <SiApollographql />, <SiHeroku /> ],
+    technologies: [ <SiHtml5 />, <SiCss3 />, <SiJavascript />, <SiMui />, <SiMongodb />, <SiExpress />, <SiReact />, <SiNodedotjs />, <SiGraphql />, <SiApollographql />, <SiHeroku /> ],
     page: "LIVE",
     pageURL: "https://myteam-stats.herokuapp.com/",
     repo: "REPO",
