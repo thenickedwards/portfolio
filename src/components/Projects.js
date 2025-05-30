@@ -91,8 +91,8 @@ const workSamples = [
       <SiReact />,
       <SiVercel />,
     ],
-    page: "LIVE",
-    pageURL: "Deployment to Vercel pending",
+    page: "LIVE: Deployment to Vercel pending",
+    pageURL: "https://duels-mapping.vercel.app/",
     repo: "REPO",
     repoURL: "https://github.com/thenickedwards/duels_mapping",
   },
@@ -148,9 +148,9 @@ const workSamples = [
       // Azure
       <VscAzure />,
     ],
-    page: "TOC",
-    pageURL:
-      "https://github.com/thenickedwards/nimbus_devops/tree/main?tab=readme-ov-file#nimbus_devops",
+    // page: "TOC",
+    // pageURL:
+    //   "https://github.com/thenickedwards/nimbus_devops/tree/main?tab=readme-ov-file#nimbus_devops",
     repo: "REPO",
     repoURL: "https://github.com/thenickedwards/nimbus_devops",
   },
@@ -169,9 +169,9 @@ const workSamples = [
       <SiNumpy />,
       <SiGooglecolab />,
     ],
-    page: "TOC",
-    pageURL:
-      "https://github.com/thenickedwards/byte_of_py2_the_sql?tab=readme-ov-file#byte_of_py2_the_sql",
+    // page: "TOC",
+    // pageURL:
+    //   "https://github.com/thenickedwards/byte_of_py2_the_sql?tab=readme-ov-file#byte_of_py2_the_sql",
     repo: "REPO",
     repoURL: "https://github.com/thenickedwards/byte_of_py2_the_sql",
   },
@@ -188,9 +188,9 @@ const workSamples = [
       <BsFiletypeJson />,
       <SiDotenv />,
     ],
-    page: "TOC",
-    pageURL:
-      "https://github.com/thenickedwards/byte_of_py?tab=readme-ov-file#byte_of_py",
+    // page: "TOC",
+    // pageURL:
+    //   "https://github.com/thenickedwards/byte_of_py?tab=readme-ov-file#byte_of_py",
     repo: "REPO",
     repoURL: "https://github.com/thenickedwards/byte_of_py",
   },
