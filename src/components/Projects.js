@@ -156,7 +156,7 @@ const workSamples = [
   },
   {
     id: 4,
-    title: "https://github.com/thenickedwards/byte_of_py2_the_sql",
+    title: "byte_of_py2_the_sql",
     imagePath: picByteOfPy2,
     description:
       "A second helping of Python, perfect for querying and managing databases, served SQL à la mode with dollop of data insights on top. Featuring database management, data modeling, and object-relational mapping (ORM).",
@@ -177,7 +177,7 @@ const workSamples = [
   },
   {
     id: 5,
-    title: "https://github.com/thenickedwards/byte_of_py",
+    title: "byte_of_py",
     imagePath: picByteOfPy,
     description:
       "A Pythonic playground for practicing purposeful programming, polishing problem-solving, and pushing personal progress. Featuring Python algorithms, object-oriented programming (OOP), and data structures.",
@@ -245,7 +245,9 @@ export default function Projects() {
           >
             <Card.Img variant="top" src={item.imagePath} />
             <Card.Body>
-              <Card.Title>{item.title}</Card.Title>
+              <Card.Title>
+                <strong>{item.title}</strong>{" "}
+              </Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Card.Text className="tech-icons">{item.technologies}</Card.Text>
             </Card.Body>
