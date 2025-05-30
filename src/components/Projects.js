@@ -246,7 +246,11 @@ export default function Projects() {
             <Card.Img
               variant="top"
               src={item.imagePath}
-              style={{ height: "10rem" }}
+              style={{
+                height: "10rem",
+                objectFit: "cover",
+                objectPosition: "left top",
+              }}
             />
             <Card.Body>
               <Card.Title>
