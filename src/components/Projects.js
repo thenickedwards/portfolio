@@ -74,7 +74,7 @@ const workSamples = [
     title: "duels_mapping",
     imagePath: picDuelsMapping,
     description:
-      "An interactive visualization dashboard that evaluates and compares how MLS players win possession using a custom stats algorithm",
+      "An interactive data visualization dashboard which supports a new composite sports statistic: Contested Possession Metric -- a method for rating a player's ability to win and/or keep possession (AKA the Schmetzer Score).",
     technologies: [
       <SiPython />,
       <SiJavascript />,
@@ -101,7 +101,7 @@ const workSamples = [
     title: "myTeam Stats",
     imagePath: picMyTeamStats,
     description:
-      "A soccer roster and stats tracker for youth leagues, adult recreational teams, and school sports! The myTeam Stats app is the best way to manage anything from players on a team to multiple leagues running multiple seasons. Technologies used: HTML, CSS, JS, Material UI, MongoDB, Express, React, Node, Apollo GraphQL, Heroku",
+      "A soccer roster and stats tracker for youth leagues, adult recreational teams, and school sports! The myTeam Stats app is the best way to manage anything from players on a team to multiple leagues running multiple seasons.",
     technologies: [
       <SiHtml5 />,
       <SiCss3 />,
@@ -125,7 +125,7 @@ const workSamples = [
     title: "nimbus_devops",
     imagePath: picNimbusDevops,
     description:
-      "nimbus_devops is the third and final repo in the byte_of_py trilogy, focused on mastering modern cloud-based software engineering, writing Python-powered data pipelines, practicing CI/CD and Agile principles, and integrating cloud services (including Google Cloud, AWS, and MS Azure), plus a little side of Docker containerization",
+      "nimbus_devops is the third and final repo in the byte_of_py trilogy, focused on mastering modern cloud-based software engineering, writing Python-powered data pipelines, practicing CI/CD and Agile principles, and integrating cloud services using Google Cloud Platform (GCP), Amazon Web Services (AWS), and MS Azure), plus a little side of Docker containerization.",
     technologies: [
       <SiPython />,
       <SiPostgresql />,
@@ -199,7 +199,7 @@ const workSamples = [
     title: "Game Notes",
     imagePath: picGameNotes,
     description:
-      "A platform for coaches, staff, medical personnel, data analysts, and players to collect thoughts, observations, questions, etc. on recent soccer games. Teams can coordinate and collaborate on Game Notes. Technologies used: HTML, Handlebars, CSS, JS, MVC, Sequelize, Express",
+      "A platform for coaches, staff, medical personnel, data analysts, and players to collect thoughts, observations, questions, etc. on recent soccer games. Teams can coordinate and collaborate on Game Notes.",
     technologies: [
       <SiHtml5 />,
       <SiHandlebarsdotjs />,
@@ -243,7 +243,11 @@ export default function Projects() {
             className="p-3"
             // className="row col-md-3 m-4 sample-card"
           >
-            <Card.Img variant="top" src={item.imagePath} />
+            <Card.Img
+              variant="top"
+              src={item.imagePath}
+              style={{ height: "10rem" }}
+            />
             <Card.Body>
               <Card.Title>
                 <strong>{item.title}</strong>{" "}

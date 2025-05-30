@@ -99,11 +99,20 @@ body {
   font-weight: bold;
 }
 
-.tech-icons {
+/* .tech-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+} */
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow items to wrap to a new line */
+  justify-content: space-evenly;
+  gap: 1.5rem; /* Optional: adds spacing between items */
 }
+
 
 .contact-container {
   display: flex;
