@@ -5,7 +5,7 @@ import { Card } from "react-bootstrap/";
 import picDuelsMapping from "../images/app-duels-mapping-uxui-design.jpg";
 import picMyTeamStats from "../images/app-myteam_addSeason.jpg";
 import picNimbusDevops from "../images/app-aws-lambda.jpg";
-import picByteOfPy from "../images/app-byte_of_py.jpg";
+import picByteOfPy from "../images/app-byte-of-py.jpg";
 import picByteOfPy2 from "../images/app-byte-of-py2-pgagmin.jpg";
 import picGameNotes from "../images/app-gamenotes.jpg";
 // import picReadMeGenerator from "../images/app-good-readme-generator.gif";
@@ -54,13 +54,14 @@ import {
   SiAmazoniam,
   // GCP
   SiGooglecloud,
+  SiGooglebigquery,
   SiGooglecloudstorage,
   SiGooglecloudcomposer,
-  DiGoogleCloudPlatform,
   SiGooglecolab,
 } from "react-icons/si";
 // import { BiLogoPostgresql } from "react-icons/bi";
 import { TbSql } from "react-icons/tb";
+import { DiGoogleCloudPlatform } from "react-icons/di";
 import { RiNextjsFill } from "react-icons/ri";
 import { TbApi } from "react-icons/tb";
 import { BsFiletypeJson } from "react-icons/bs";
