@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a2d0b4f0.css",
-    "main.js": "/portfolio/static/js/main.b6f40c01.js",
+    "main.js": "/portfolio/static/js/main.db5cf5d0.js",
     "static/js/787.18ad6996.chunk.js": "/portfolio/static/js/787.18ad6996.chunk.js",
-    "static/media/app-good-readme-generator.gif": "/portfolio/static/media/app-good-readme-generator.8eff4b3692b5a395eb98.gif",
     "static/media/background_blur89dk.jpg": "/portfolio/static/media/background_blur89dk.86ba836b33f82de43719.jpg",
-    "static/media/app-holidaze-plac.jpeg": "/portfolio/static/media/app-holidaze-plac.f906d0b544d956f619d2.jpeg",
-    "static/media/app-sounders-quiz-gif-thumbnail.gif": "/portfolio/static/media/app-sounders-quiz-gif-thumbnail.8cd8b4938081a06cfead.gif",
+    "static/media/app-aws-lambda.jpg": "/portfolio/static/media/app-aws-lambda.940d6bd192b30f58c7bf.jpg",
     "static/media/app-gamenotes.jpg": "/portfolio/static/media/app-gamenotes.0514aa0dc00afabff536.jpg",
+    "static/media/app-duels-mapping-uxui-design.jpg": "/portfolio/static/media/app-duels-mapping-uxui-design.30e409073a3e175560f9.jpg",
+    "static/media/app-byte-of-py2-pgagmin.jpg": "/portfolio/static/media/app-byte-of-py2-pgagmin.b75801170d0637bc6ed8.jpg",
+    "static/media/app-byte-of-py.jpg": "/portfolio/static/media/app-byte-of-py.49a96ca1d6b1af7a069c.jpg",
     "static/media/NEdwards-pic.png": "/portfolio/static/media/NEdwards-pic.163aa025111c2cd93835.png",
     "static/media/app-myteam_addSeason.jpg": "/portfolio/static/media/app-myteam_addSeason.b51e5013cad14cf4b4e3.jpg",
-    "static/media/app-habitracker.jpg": "/portfolio/static/media/app-habitracker.59517ec9d0627099899d.jpg",
     "index.html": "/portfolio/index.html",
     "main.a2d0b4f0.css.map": "/portfolio/static/css/main.a2d0b4f0.css.map",
-    "main.b6f40c01.js.map": "/portfolio/static/js/main.b6f40c01.js.map",
+    "main.db5cf5d0.js.map": "/portfolio/static/js/main.db5cf5d0.js.map",
     "787.18ad6996.chunk.js.map": "/portfolio/static/js/787.18ad6996.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2d0b4f0.css",
-    "static/js/main.b6f40c01.js"
+    "static/js/main.db5cf5d0.js"
   ]
 }
