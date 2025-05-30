@@ -2,7 +2,7 @@ import * as React from "react";
 import { Card } from "react-bootstrap/";
 
 // Sample app images
-
+import picDuelsMapping from "../images/app-duels-mapping-uxui-design.jpg";
 import picMyTeamStats from "../images/app-myteam_addSeason.jpg";
 import picNimbusDevops from "../images/app-aws-lambda.jpg";
 import picByteOfPy from "../images/app-byte_of_py.jpg";
@@ -71,7 +71,7 @@ const workSamples = [
   {
     id: 1,
     title: "duels_mapping",
-    // TODO: imagePath: picDuelsMapping,
+    imagePath: picDuelsMapping,
     description:
       "An interactive visualization dashboard that evaluates and compares how MLS players win possession using a custom stats algorithm",
     technologies: [
