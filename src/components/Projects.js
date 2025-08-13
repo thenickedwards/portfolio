@@ -91,7 +91,7 @@ const workSamples = [
       <SiReact />,
       <SiVercel />,
     ],
-    page: "LIVE: Deployment to Vercel pending",
+    page: "LIVE",
     pageURL: "https://duels-mapping.vercel.app/",
     repo: "REPO",
     repoURL: "https://github.com/thenickedwards/duels_mapping",
